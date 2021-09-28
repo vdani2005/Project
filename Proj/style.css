@@ -10,3 +10,29 @@ p{
 .image{
 	text-align: center;
 }
+
+table, td{
+	border: 1px solid black;
+}
+
+thead{
+	font-weight: bold;
+	text-align: center;
+}
+
+table{
+	width : 100%;
+	margin: 0 10px;
+}
+
+td{
+	width: 50%;
+}
+
+thead td{
+	padding: 5px 0;
+}
+
+tbody tr td:last-child{
+	text-align: center;
+}
